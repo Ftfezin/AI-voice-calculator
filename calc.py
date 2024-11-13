@@ -17,7 +17,7 @@ def speak(audio):
 
 
 def WolframAlpha(query):
-    apikey = "PT6KKG-AE6H74A95Y"
+    apikey = "Enter your wolframalpha apikey"
     requester = wolframalpha.Client(apikey)
     requested = requester.query(query)
 
